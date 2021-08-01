@@ -1,30 +1,34 @@
-import { makeStyles } from "@material-ui/core";
+import { makeStyles } from '@material-ui/core';
 
-const useStyles = makeStyles(
-    {
-        navbar:{
-            backgroundColor: '#203040',
-            '& a':{
-                color: '#ffffff',
-                marginLeft: 10,
-            },
-        },
-        main:{
-            minHeight: '80vh',
-        },
+const useStyles = makeStyles({
+  navbar: {
+    backgroundColor: '#203040',
+    '& a': {
+      color: '#ffffff',
+      marginLeft: 10,
+    },
+  },
+  main: {
+    minHeight: '80vh',
+  },
 
-        footer:{
-            textAlign: 'center',
-        },
+  footer: {
+    marginTop: 20,
+    textAlign: 'center',
+  },
 
-        brand:{
-            fontWeight: 'bold',
-            fontSize: '1.5rem',
-        },
+  brand: {
+    fontWeight: 'bold',
+    fontSize: '1.5rem',
+  },
 
-        grow:{
-            flexGrow: 1
-        },
-    }
-);
+  grow: {
+    flexGrow: 1,
+  },
+
+  section: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+});
 export default useStyles;
